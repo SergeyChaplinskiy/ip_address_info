@@ -1,0 +1,23 @@
+{
+  "name": "information_about_ip_address",
+  "version": "1.0.1-alpha",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sergeyChaplinskiy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyChaplinskiy/information_about_ip_address.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergeyChaplinskiy/information_about_ip_address/issues"
+  },
+  "homepage": "https://github.com/SergeyChaplinskiy/information_about_ip_address#readme",
+  "description": "",
+  "dependencies": {
+    "information_about_ip_address": "^1.0.1-alpha"
+  }
+}
