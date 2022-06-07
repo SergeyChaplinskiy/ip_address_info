@@ -1,5 +1,5 @@
 {
-  "name": "information_about_ip_address",
+  "name": "ip_address_info",
   "version": "1.0.1-alpha",
   "main": "app.js",
   "scripts": {

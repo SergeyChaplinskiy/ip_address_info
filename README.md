@@ -5,10 +5,15 @@
 ## Installation
 To install, type the following command in the terminal:
 ```
-npm install information_about_ip_address
+npm install ip_address_info
 ```
 link on Github:
 
 [https://github.com/SergeyChaplinskiy/information_about_ip_address/blob/main/app.js](https://github.com/SergeyChaplinskiy/information_about_ip_address/blob/main/app.js)
 
-### thanks for reading:)
+## Usage
+Just import and run the code by writing in the terminal node mainFileName.js.
+```js
+const locIp = require('ip_address_info');
+```
+### Thanks for reading:)
