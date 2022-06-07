@@ -1,4 +1,4 @@
-## Hi, friend!
+## Hi, friend! :wave:
 
 **I created my own module so that you can find out the ip addresses of connected network devices and their name**
 
@@ -16,4 +16,9 @@ Just import and run the code by writing in the terminal **node mainFileName.js**
 ```js
 const locIp = require('ip_address_info');
 ```
-### Thanks for reading:)
+to view local ip, just output to the console.
+
+```js
+console.log(locIp);
+```
+### Thanks. :smirk:
