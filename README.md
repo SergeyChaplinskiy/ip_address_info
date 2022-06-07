@@ -7,10 +7,6 @@ To install, type the following command in the terminal:
 ```
 npm install ip_address_info
 ```
-link on Github:
-
-[https://github.com/SergeyChaplinskiy/ip_address_info/blob/main/app.js](https://github.com/SergeyChaplinskiy/ip_address_info/blob/main/app.js)
-
 ## Usage
 Just import and run the code by writing in the terminal **node mainFileName.js**.
 ```js
