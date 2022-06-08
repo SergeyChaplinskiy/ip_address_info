@@ -1,29 +1,27 @@
 
 const os = require('os');
 
-const infoIp = () => {
+const getIpInfo = () => {
     const paramIp = os.networkInterfaces();
-    const ip_ = [];
+    const ip = [];
     let scor = 1;
 
-    Object.keys(paramIp).forEach(function(name){
+    Object.keys(paramIp).forEach(function (name) {
         paramIp[name].forEach(function (iface) {
-            if(iface.family === 4 && iface.internal !== false){
-                localIp = iface.address;
-                ip_.push(`local ip address: ${localIp}`);
-            }
-            else if(iface.family === 4 && iface.internal === false){
-                externalIp = iface.address;
-                ip_.push(`external ip address(v4) ${+scor}: ${externalIp} device name "${name}"`);
+            if (iface.family === 4 || iface.family === 'IPv4') {
+                internalIp = iface.address;
+                ip.push(`internal ip address ${+scor}: ${internalIp} device name "${name}"`);
                 scor++;
-            }else if(iface.address === undefined){
-                ip_.push(`ip address not found: 0.0.0.0`);
+            } else if (iface.address === undefined) {
+                ip.push(`ip address not found: 0.0.0.0`);
             }
         })
     })
-    return ip_;
+    return ip;
 }
 
-module.exports = infoIp();
+module.exports = {
+    getIpInfo
+};
 
 

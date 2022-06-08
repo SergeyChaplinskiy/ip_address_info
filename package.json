@@ -1,6 +1,6 @@
 {
   "name": "ip_address_info",
-  "version": "1.0.1-alpha",
+  "version": "1.0.3-alpha",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,14 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SergeyChaplinskiy/information_about_ip_address.git"
+    "url": "git+https://github.com/SergeyChaplinskiy/ip_address_info.git"
   },
   "bugs": {
-    "url": "https://github.com/SergeyChaplinskiy/information_about_ip_address/issues"
+    "url": "https://github.com/SergeyChaplinskiy/ip_address_info/issues"
   },
-  "homepage": "https://github.com/SergeyChaplinskiy/information_about_ip_address#readme",
-  "description": "",
+  "homepage": "https://github.com/SergeyChaplinskiy/ip_address_info#readme",
+  "description": "**I created my own module so that you can find out the ip addresses of connected network devices and their name**",
   "dependencies": {
-    "information_about_ip_address": "^1.0.1-alpha"
+    "ip_address_info": "^1.0.3-alpha"
   }
 }
