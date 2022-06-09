@@ -1,6 +1,6 @@
 {
   "name": "ip_address_info",
-  "version": "1.0.4-alpha",
+  "version": "1.0.5-alpha",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

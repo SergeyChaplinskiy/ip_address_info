@@ -10,11 +10,12 @@ npm install ip_address_info
 ## Usage
 Just import and run the code by writing in the terminal **node mainFileName.js**.
 ```js
-const locIp = require('ip_address_info');
+const getIpInfo = require('ip_address_info');
 ```
-to see the ip, just call the method in the console.
+to see the public or private ip, just call the method.
 
 ```js
-console.log(locIp.getIpInfo());
+getIpInfo.getExternalIp();
+getIpInfo.getInternalIp();
 ```
 ### Thanks. :smirk:
