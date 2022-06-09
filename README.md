@@ -12,9 +12,9 @@ Just import and run the code by writing in the terminal **node mainFileName.js**
 ```js
 const locIp = require('ip_address_info');
 ```
-to view local ip, just output to the console.
+to see the ip, just call the method in the console.
 
 ```js
-console.log(locIp);
+console.log(locIp.getIpInfo());
 ```
 ### Thanks. :smirk:

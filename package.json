@@ -1,6 +1,6 @@
 {
   "name": "ip_address_info",
-  "version": "1.0.3-alpha",
+  "version": "1.0.4-alpha",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/SergeyChaplinskiy/ip_address_info#readme",
   "description": "**I created my own module so that you can find out the ip addresses of connected network devices and their name**",
-  "dependencies": {
-    "ip_address_info": "^1.0.3-alpha"
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.26.0"
   }
 }
